@@ -49,36 +49,49 @@ ul {
     font-family: "Raleway", sans-serif;
     font-size: 30pt;
     text-align: center;
-    
   }
-
-
-
-  .footer {
-   
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    height: 100px;
-    background-color: #333;
-    color: white;
-    text-align: center;
-	
+  
+  .text{
+	  
+	  text-align: justify;
+	  width:800px;
+	  margin-left:560px;
+	  font-size: 15pt;
+  }
+  
+  .canada{
+	  padding:40px;
+	  background-color:#1A5276;
 	
   }
   
- .canada {
-  border: 1px hidden;
-  box-shadow: 2px 2px 2px 2px #888888;
-  align:center;
-  width:700px;
-  height:450px;
-  margin: 125px;
-  float: left;
-}
- .content{
-	padding:10px;
-	font-family: "Raleway", sans-serif;
+  .content{
+	  margin-left:800px;
+	   color:white;
+	  
+  }
+  
+  .text2{
+	 text-align: justify;  
+	 font-size: 15pt;
+  }
+  
+   .USA{
+	  padding:40px;
+	  background-color:#1A5276;  
+   }
+   
+   .content2{
+	   
+	   color:white; 
+   }
+   
+   .text3{
+	  text-align: justify;  
+	 font-size: 15pt; 
+	 width:800px;
+   }
 	
-}
-
+	
+	
+	

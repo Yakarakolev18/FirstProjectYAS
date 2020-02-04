@@ -1,0 +1,62 @@
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #333;
+    padding: 0;
+    margin: 0;
+
+  }
+
+  li {
+    float: right;
+  }
+
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 24px 26px;
+    text-decoration: none;
+    font-family: "Raleway", sans-serif;
+    font-size: 14pt;
+
+  }
+
+  li a:hover {
+    background-color: #0080FF;
+  }
+
+  body{
+    background-image: url("../images/cd2.jpg");
+    padding: 0;
+    margin: 0;
+	background-size: 1920px 680px;
+	 background-repeat: no-repeat;
+  background-position:  top;
+  background-attachment: scroll;
+  background-clip:  initial;
+  font-family: "Raleway", sans-serif;
+  }
+  
+  .container{
+	 border: 3px solid black;
+	  border-radius: 20px;
+	  width:400px;
+	  height:200px;
+	  float: left;
+	  margin: 34px;
+  }
+  
+   .content{
+	padding:10px;
+	
+}
+  
+  
+  
+  
+  
+  
+  
+  
+  
