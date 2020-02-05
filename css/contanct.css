@@ -26,7 +26,7 @@ li a {
     background-image: url("../images/bgc.jpg");
     padding: 0;
     margin: 0;
-	background-size: 1920px 1080px;
+	background-size: relative;
 	 background-repeat: no-repeat;
   background-position:  top;
   background-attachment: scroll;
@@ -67,7 +67,6 @@ input[type=text], select, textarea {
     margin-left:440px;	
   }
 
- 
 .footer {
   position: relative;
   left: 0;
