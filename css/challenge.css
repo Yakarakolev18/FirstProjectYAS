@@ -27,10 +27,10 @@ ul {
   }
 
   body{
-    background-image: url("../images/home-page.jpg");
+    background-image: url("../images/prob.jpg");
     padding: 0;
     margin: 0;
-	background-size: 1920px 1080px;
+	background-size: 1920px 680px;
 	 background-repeat: no-repeat;
   background-position:  top;
   background-attachment: scroll;
@@ -40,60 +40,42 @@ ul {
 
 
   
-.point1{
-	border:5px solid black;
-	border-radius:40px;
-	width:35%;
-	margin-left:100px;
-	float:left;
-	text-align: justify;  
+
+  
+  
+  .pagination {
+  display: inline-block;
+  margin-left:175px;
 }
 
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+}
 
+.pagination a.active {
+  background-color: #0080FF;
+  color: white;
+}
+
+.pagination a:hover:not(.active) {background-color: #ddd;}
   
-  .text{
+  
+  .content1{
 	  
-	  text-align: justify;
-	  width:800px;
-	  margin-left:560px;
-	  font-size: 15pt;
-  }
-  
-  .canada{
-	  padding:40px;
-	  
-	
-  }
-  
-  .content{
-	  margin-left:800px;
-	   color:white;
-	  
-  }
-  
-  .text2{
-	 text-align: justify;  
-	 font-size: 15pt;
-	 width:80%
-  }
-  
-   .USA{
-	  padding:40px;
-	
-   }
-   
-   .content2{
-	   
-	   color:white; 
-   }
-   
-   .text3{
+	 
+	  margin-left:550px;
 	  text-align: justify;  
-	 font-size: 15pt; 
-	 width:800px;
-   }
-   
-   .footer {
+	 font-size: 15pt;
+	 width:40%;
+	  
+  }
+  
+  
+    .footer {
+  float:left;
   position: relative;
   left: 0;
   bottom: 0;
@@ -103,9 +85,4 @@ ul {
   color: white;
   text-align: center;
   }
-	
-.page{
-	  background-color:#1A5276; 
-}
-	
-<p style="font-size:15pt ;padding:30px; ">	
+  

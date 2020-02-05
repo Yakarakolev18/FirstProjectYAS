@@ -27,73 +27,30 @@ ul {
   }
 
   body{
-    background-image: url("../images/home-page.jpg");
+    background-image: url("../images/eubg.jpg");
     padding: 0;
     margin: 0;
-	background-size: 1920px 1080px;
+	background-size: 1920px 680px;
 	 background-repeat: no-repeat;
   background-position:  top;
   background-attachment: scroll;
   background-clip:  initial;
   font-family: "Raleway", sans-serif;
   }
-
-
   
-.point1{
-	border:5px solid black;
-	border-radius:40px;
-	width:35%;
-	margin-left:100px;
-	float:left;
-	text-align: justify;  
-}
-
-
-  
-  .text{
-	  
-	  text-align: justify;
-	  width:800px;
-	  margin-left:560px;
-	  font-size: 15pt;
-  }
-  
-  .canada{
-	  padding:40px;
-	  
-	
+  .points{
+	margin-left:30px;  
   }
   
   .content{
-	  margin-left:800px;
-	   color:white;
-	  
+	  margin-left:100px;
+	  width:40%;
+	  text-align: justify;
+
   }
   
-  .text2{
-	 text-align: justify;  
-	 font-size: 15pt;
-	 width:80%
-  }
   
-   .USA{
-	  padding:40px;
-	
-   }
-   
-   .content2{
-	   
-	   color:white; 
-   }
-   
-   .text3{
-	  text-align: justify;  
-	 font-size: 15pt; 
-	 width:800px;
-   }
-   
-   .footer {
+     .footer {
   position: relative;
   left: 0;
   bottom: 0;
@@ -103,9 +60,15 @@ ul {
   color: white;
   text-align: center;
   }
-	
-.page{
-	  background-color:#1A5276; 
-}
-	
-<p style="font-size:15pt ;padding:30px; ">	
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  

@@ -31,7 +31,7 @@ li a:hover {
 }
 
 .footer {
-  position: fixed;
+  position: relative;
   left: 0;
   bottom: 0;
   width: 100%;
@@ -40,19 +40,85 @@ li a:hover {
   color: white;
   text-align: center;
   }
+  
+  
+  * {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+.header {
+  text-align: center;
+  padding: 32px;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+
+.column img {
+  margin-top: 12px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 </style>
 </head>
 <body>
 <ul>
-  <li><a href="About.html">About</a></li>
+  <li><a href="About.html">Gallery</a></li>
   <li><a href="Contact.html">Contact</a></li>
   <li><a href="News.html">News</a></li>
   <li><a href="index.html">Home</a></li>
   <li style="float:left"><a class="active" href="#nothing">THE BLUE ECONOMY</a></li>
 </ul>
 
+<!-- Header -->
+<div class="header">
+  <i><h1 style="font-size:40px;">THE GALLERY</h1></i>
+</div>
+
+<!-- Photo Grid -->
+<div class="row"> 
+  <div class="column">
+  <img src="images/tourism.jpg" style="width:100%">
+  <img src="images/1.jpg" style="width:100%">
+  <img src="images/2.jpg" style="width:100%">
+  <img src="images/3.jpg" style="width:100%">
+  <img src="images/4.jpg" style="width:100%">
+  <img src="images/5.jpg" style="width:100%">
+  <img src="images/6.jpg" style="width:100%">
+  <img src="images/risk.jpg" style="width:100%">
+  </div>
+  <div class="column">
+  <img src="images/7.jpg" style="width:100%">
+  <img src="images/8.jpg" style="width:100%">
+  <img src="images/9.jpg" style="width:100%">
+  <img src="images/10.jpg" style="width:100%">
+  <img src="images/11.jpg" style="width:100%">
+  <img src="images/12.jpg" style="width:100%">
+ 
+  </div>  
+  
+ 
+
+
+</div>
+
 <div class="footer">
   <p>
+  <h3 style= "float:left; margin-left:100px;">Created by A.S.Y.</h3>
   <ul>
   <li><a href='https://www.instagram.com/livingindiatv/'><img src="images/instagram.jpg" alt="Facebook" width="30" height="30"></a></li>
   <li><a href='https://twitter.com/livingindiatv'><img src="images/twitter.jpg" alt="Facebook" width="30" height="30"></a></li>
