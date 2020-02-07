@@ -27,14 +27,8 @@ ul {
   }
 
   body{
-    background-image: url("../images/eubg.jpg");
     padding: 0;
     margin: 0;
-	background-size: 1920px 680px;
-	 background-repeat: no-repeat;
-  background-position:  top;
-  background-attachment: scroll;
-  background-clip:  initial;
   font-family: "Raleway", sans-serif;
   }
   
