@@ -27,14 +27,11 @@ ul {
   }
 
   body{
-    background-image: url("../images/usa2.jpg");
+ 
     padding: 0;
     margin: 0;
-	background-size: 1920px 680px;
-	 background-repeat: no-repeat;
   background-position:  top;
-  background-attachment: scroll;
-  background-clip:  initial;
+background-repeat: no-repeat;
   font-family: "Raleway", sans-serif;
   }
 

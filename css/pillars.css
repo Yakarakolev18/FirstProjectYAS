@@ -30,12 +30,10 @@ ul {
     background-image: url("../images/prob.jpg");
     padding: 0;
     margin: 0;
-	background-size: 1920px 680px;
-	 background-repeat: no-repeat;
-  background-position:  top;
-  background-attachment: scroll;
-  background-clip:  initial;
-  font-family: "Raleway", sans-serif;
+	background-repeat: no-repeat;
+    background-position:  top;
+    font-family: "Raleway", sans-serif;
+    font-size: 15pt;
   }
 
 
@@ -45,7 +43,7 @@ ul {
   
   .pagination {
   display: inline-block;
-  margin-left:175px;
+  text-align:center;
 }
 
 .pagination a {

@@ -64,7 +64,8 @@ input[type=text], select, textarea {
     background-color: #dcdcdc;
     padding: 20px;
 	width: 50%;
-    margin-left:440px;	
+  display: inline-block;
+   
   }
 
 .footer {
